@@ -1,0 +1,82 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* HEADER (Banner) */
+        .header {
+            background: linear-gradient(to right, #4facfe, #00c6ff);
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        /* NAVBAR (Flexbox) */
+        .navbar {
+            display: flex;
+            justify-content: flex-end;
+            background-color: #999;
+            padding: 10px 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 12px;
+        }
+
+        /* CONTAINER (Flexbox 2 kolom) */
+        .container {
+            display: flex;
+            min-height: 300px;
+        }
+
+        .biodata {
+            flex: 1;
+            background-color: #8fbcbc;
+            padding: 20px;
+        }
+
+        .pengalaman {
+            flex: 2;
+            background-color: #e6e6e6;
+            padding: 20px;
+        }
+
+        /* IMAGE */
+        .biodata img {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+
+        /* TABLE */
+        table {
+            width: 70%;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 6px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #ccc;
+        }
+
+        /* FOOTER */
+        .footer {
+            background-color: #999;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+        }
+
+        .p1{
+            height: 1px;
+        }

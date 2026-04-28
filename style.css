@@ -1,82 +1,107 @@
 body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
 
-        /* HEADER (Banner) */
-        .header {
-            background: linear-gradient(to right, #4facfe, #00c6ff);
-            height: 250px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 40px;
-            font-weight: bold;
-        }
+/* HEADER */
+.header-container {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
 
-        /* NAVBAR (Flexbox) */
-        .navbar {
-            display: flex;
-            justify-content: flex-end;
-            background-color: #999;
-            padding: 10px 20px;
-        }
+.header-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            margin-left: 20px;
-            font-size: 12px;
-        }
+/* NAVBAR */
+.navbar {
+    background-color: #a0a0a0;
+    padding: 8px 0;
+    display: flex;
+    justify-content: flex-end;
+}
 
-        /* CONTAINER (Flexbox 2 kolom) */
-        .container {
-            display: flex;
-            min-height: 300px;
-        }
+.nav-links {
+    margin-right: 20px;
+}
 
-        .biodata {
-            flex: 1;
-            background-color: #8fbcbc;
-            padding: 20px;
-        }
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
 
-        .pengalaman {
-            flex: 2;
-            background-color: #e6e6e6;
-            padding: 20px;
-        }
+/* MAIN CONTAINER */
+.container {
+    display: flex;
+    min-height: 400px;
+}
 
-        /* IMAGE */
-        .biodata img {
-            width: 150px;
-            margin-bottom: 10px;
-        }
+/* BIODATA (Kiri) */
+.biodata {
+    flex: 1;
+    background-color: #8dbdbd;
+    padding: 30px;
+}
 
-        /* TABLE */
-        table {
-            width: 70%;
-        }
+.biodata h3 {
+    margin-top: 0;
+}
 
-        th, td {
-            border: 1px solid #333;
-            padding: 6px;
-            text-align: left;
-        }
+.biodata img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 2px solid white;
+    margin-bottom: 15px;
+}
 
-        th {
-            background-color: #ccc;
-        }
+.biodata p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 5px 0;
+}
 
-        /* FOOTER */
-        .footer {
-            background-color: #999;
-            text-align: center;
-            padding: 10px;
-            font-size: 12px;
-        }
+.pengalaman {
+    flex: 2;
+    background-color: #ffffff;
+    padding: 30px;
+}
 
-        .p1{
-            height: 1px;
-        }
+.pengalaman h3 {
+    margin-top: 0;
+}
+
+/* TABLE STYLING */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+th {
+    background-color: #c0e0e0;
+    text-align: left;
+    padding: 10px;
+}
+
+td {
+    padding: 8px 10px;
+    background-color: #c0e0e0;
+    border-bottom: 1px solid #fff;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #a0a0a0;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    color: #333;
+}
